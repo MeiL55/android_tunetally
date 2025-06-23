@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:title=" "
+        android:icon="@drawable/baseline_menu_24">
+        <menu>
+            <item
+                android:id="@+id/menu_viewAccount"
+                app:showAsAction="never"
+                android:title="View Your Account" />
+            <item
+                android:id="@+id/menu_updateEmail"
+                app:showAsAction="never"
+                android:title="Update Your Email" />
+            <item
+                android:id="@+id/menu_logout"
+                app:showAsAction="never"
+                android:title="Logout" />
+            <item
+                android:id="@+id/menu_deleteAccount"
+                app:showAsAction="never"
+                android:title="Delete Account" />
+
+        </menu>
+
+    </item>
+</menu>

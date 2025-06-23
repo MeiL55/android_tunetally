@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TuneTally</string>
+    <string name="signInHint">Don\'t have an account?</string>
+    <string name="signUpHint">Already have an account?</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+</resources>
